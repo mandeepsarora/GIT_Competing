@@ -1,0 +1,201 @@
+{
+	"id": "af29b212-cc4e-d57e-7a6d-16e48b2ac7ca",
+	"name": "CompetingAppsExcel",
+	"description": "",
+	"order": [
+		"4c1edf19-cfe6-b2f6-754f-cadc4a1efe85"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": 0,
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "4c1edf19-cfe6-b2f6-754f-cadc4a1efe85",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YXJvcmFtczpDbGludG9uQDEyMw==\n//URL: {{URL}}\nusername: {{username}}\npassword: {{password}}\n//json: application/json\nCookie: SMSESSION=RnyBwkVm4PnLSB3WXirNlOyab/NuK2kamqe+5hx6CiPc/E2QyWGVfBd8q/HTyD3HzWGd7IJyACJ6Rx8tvs/9qyrRk/3XGcKJPdym/l5+YoFocD09gGwPYknW14bbA1rG1ZSclaVHfmhA7084ByZ4EbawKKdxdWq0pbfoNJcXUz8OYhtAmPPNZMAWQ2QOjjhW5hsF+TKIdv6/01m0/UqA7zSUn6YOg7bE+u69rIMSr2t1bYhWWA0jW6d8sNY1roh5YSK6qpE670uGkDDqofIHIthc12hO6E4d4EfTyBLfWSJIve8beWAaFny1m2B1S9z0uHbkoHZhzyw2o+bUtJ896cNqBtHgfw3/JuOQPRY33JJJkv8Ilp6zjj/mKptJj22OX/6U0cv0id5+tumupgz2VBPcCT/b06sjvvsL/h6PLOYpHZFggepmfbZi2vkenRxXYuuhFRJykn/778KlhAnJ9fco0Mg6QTYL6zEXTUOAWyAnAPwuAVihlXNGX3gAaPqvNEs4wVcG7gREQHthM0GKV8kbVY9hJt1Cw17p1mtBmvGwqqVYdjMcmzvfEj1+j8N8qEUIsR6/CB2El/dFo5C0Pf686gGsCRlbCjqn7MM5gnEHEU3AiFbTxrqD5QwgMq3/wYyDKCN66B6PE8snoRh/8h4xTLRjM448IZYQFopIbPFa9Vym2LLsY/b67NN0jgIWj8coov8cOv0VTTqD2lTuXrBY0XygyqssK8XM+BeyLPtlDDGa3laSn4n9lXGHkwGBwTPuNlPaK55PC9pwV7ESQVtNc3CLokMUO6Lom3Tk7D9aWfhAIFIuvg3Od3kRpEQKpAX6F7LivP9Zbf688t+JXfyB16vuNmNtpU+KR67+Jg8ebtvnQdvBStfkxo8FOdc3mFoigkiaiQm98W8cxuS6emiOkmkXIknuJf8pfqqAB1yoXiAc+0AZJRd4JXXJmI9PU7wGxGjzwPgoWAqWNlg0GfncKqeCYFSXK5pukUDEAN9dCFU6OpKeJlbpHthxuteBvn286Ci5/O2ck+L/d0GW9qXUwKPRt132H53VE3xzfW+Ew3q+9pIr3WNy7PfHnTmNMZndw/HIKXt+En0NLiu2XgiB6z63oqdo\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YXJvcmFtczpDbGludG9uQDEyMw==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "URL",
+					"value": "{{URL}}",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "username",
+					"value": "{{username}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "{{password}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "json",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Cookie",
+					"value": "SMSESSION=RnyBwkVm4PnLSB3WXirNlOyab/NuK2kamqe+5hx6CiPc/E2QyWGVfBd8q/HTyD3HzWGd7IJyACJ6Rx8tvs/9qyrRk/3XGcKJPdym/l5+YoFocD09gGwPYknW14bbA1rG1ZSclaVHfmhA7084ByZ4EbawKKdxdWq0pbfoNJcXUz8OYhtAmPPNZMAWQ2QOjjhW5hsF+TKIdv6/01m0/UqA7zSUn6YOg7bE+u69rIMSr2t1bYhWWA0jW6d8sNY1roh5YSK6qpE670uGkDDqofIHIthc12hO6E4d4EfTyBLfWSJIve8beWAaFny1m2B1S9z0uHbkoHZhzyw2o+bUtJ896cNqBtHgfw3/JuOQPRY33JJJkv8Ilp6zjj/mKptJj22OX/6U0cv0id5+tumupgz2VBPcCT/b06sjvvsL/h6PLOYpHZFggepmfbZi2vkenRxXYuuhFRJykn/778KlhAnJ9fco0Mg6QTYL6zEXTUOAWyAnAPwuAVihlXNGX3gAaPqvNEs4wVcG7gREQHthM0GKV8kbVY9hJt1Cw17p1mtBmvGwqqVYdjMcmzvfEj1+j8N8qEUIsR6/CB2El/dFo5C0Pf686gGsCRlbCjqn7MM5gnEHEU3AiFbTxrqD5QwgMq3/wYyDKCN66B6PE8snoRh/8h4xTLRjM448IZYQFopIbPFa9Vym2LLsY/b67NN0jgIWj8coov8cOv0VTTqD2lTuXrBY0XygyqssK8XM+BeyLPtlDDGa3laSn4n9lXGHkwGBwTPuNlPaK55PC9pwV7ESQVtNc3CLokMUO6Lom3Tk7D9aWfhAIFIuvg3Od3kRpEQKpAX6F7LivP9Zbf688t+JXfyB16vuNmNtpU+KR67+Jg8ebtvnQdvBStfkxo8FOdc3mFoigkiaiQm98W8cxuS6emiOkmkXIknuJf8pfqqAB1yoXiAc+0AZJRd4JXXJmI9PU7wGxGjzwPgoWAqWNlg0GfncKqeCYFSXK5pukUDEAN9dCFU6OpKeJlbpHthxuteBvn286Ci5/O2ck+L/d0GW9qXUwKPRt132H53VE3xzfW+Ew3q+9pIr3WNy7PfHnTmNMZndw/HIKXt+En0NLiu2XgiB6z63oqdo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{URL}}",
+			"folder": null,
+			"queryParams": [],
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "de00a489-7f59-4991-9320-0fa59b5af5eb",
+						"type": "text/javascript",
+						"exec": [
+							"//Set global variable for all columns in testdata",
+							"postman.setGlobalVariable(\"URL\", data[\"URL\"]);",
+							"postman.setGlobalVariable(\"VALID\", data[\"VALID\"]);",
+							"postman.setGlobalVariable(\"INVALID\", data[\"INVALID\"]);",
+							"postman.setGlobalVariable(\"TOCHECK\", data[\"TOCHECK\"]);",
+							"//postman.setGlobalVariable(\"WIDGET\", data[\"WIDGET\"]);",
+							"//postman.setGlobalVariable(\"COLUMN\", data[\"COLUMN\"]);",
+							"console.log(\"URL that will be sent   \" + data[\"URL\"]);",
+							"console.log(\"VALID that will be sent   \" + data[\"VALID\"]);",
+							"console.log(\"INVALID that will be sent   \" + data[\"INVALID\"]);",
+							"console.log(\"TOCHECK that will be sent   \" + data[\"TOCHECK\"]);",
+							"//console.log(\"WIDGET that will be sent   \" + data[\"WIDGET\"]);",
+							"",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "9a60b805-614a-421b-99fb-4e48e9b4cdab",
+						"type": "text/javascript",
+						"exec": [
+							"    //To check filtering by String",
+							"if ((data[\"TOCHECK\"] == \"FILTER\"  && data[\"TYPE\"] == \"STRING\"))",
+							"{",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"// If Valid Scenario",
+							"tests[\"POSITIVE + Body matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"VALID\"]] = responseBody.has(data[\"VALID\"].trim());",
+							"",
+							"//Invalid Scenario",
+							"tests[\"NEGATIVE + Body DOES NOT matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"INVALID\"]] = !(responseBody.has(data[\"INVALID\"].trim()));",
+							"",
+							"}",
+							"//To check filtering by Number",
+							"else if ((data[\"TOCHECK\"] == \"FILTER\") && (data[\"TYPE\"] == \"NUMBER\"))",
+							"{",
+							"    tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"// If Valid Scenario",
+							"tests[\"POSITIVE + Body matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"VALID\"]] = responseBody.has(data[\"VALID\"]);",
+							"",
+							"//Invalid Scenario",
+							"tests[\"NEGATIVE + Body DOES NOT matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"INVALID\"]] = !(responseBody.has(data[\"INVALID\"]));",
+							"",
+							"}",
+							"//To check Sorting for String",
+							"else if ((data[\"TOCHECK\"] == \"SORT\") && (data[\"TYPE\"] == \"STRING\"))",
+							"{",
+							"    tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"     var contentTypeHeader = postman.getResponseHeader(\"Content-Type\");",
+							"     tests[\"Content-Type : \" + contentTypeHeader]  = 1==1;",
+							"    ",
+							"//SORT",
+							"try",
+							"{",
+							"   var jsonData = JSON.parse(responseBody);",
+							"}",
+							"catch(exception)",
+							"{",
+							"    console.log(\"Exception:  ********  \" + exception);",
+							"    console.log(\"ResonseBody When exception *******  \" +  responseBody);",
+							"}",
+							"// Fetch properties in JSON response and get first one ",
+							"var widgetName = Object.keys(jsonData)[0]; // There are 2 properties, so fetch first property with 0 index",
+							"var columnValueToCompare = data[\"COLUMN\"].trim();",
+							"",
+							"// Get project title which is first in the list : SORT ASC",
+							"var SortColumnFromResponse = jsonData[widgetName][0][columnValueToCompare];",
+							"// Compare projecttitle from response with Value in Excel",
+							"var SortingTestCaseName = \"SORT on : \" + columnValueToCompare + \", EXPECTED RESULT : \" + data[\"VALID\"].trim() + \", ACTUAL RESULT: \" +SortColumnFromResponse;",
+							"",
+							"    tests[SortingTestCaseName ] = SortColumnFromResponse == (data[\"VALID\"].trim());",
+							"    ",
+							"}",
+							"",
+							"//To check Sorting for Number",
+							"else if ((data[\"TOCHECK\"] == \"SORT\") && (data[\"TYPE\"] == \"NUMBER\"))",
+							"{",
+							"    tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"//SORT",
+							"var jsonData = JSON.parse(responseBody);",
+							"// Fetch properties in JSON response and get first one ",
+							"var widgetName = Object.keys(jsonData)[0]; // There are 2 properties, so fetch first property with 0 index",
+							"var columnValueToCompare = data[\"COLUMN\"];",
+							"",
+							"// Get project title which is first in the list : SORT ASC",
+							"var SortColumnFromResponse = jsonData[widgetName][0][columnValueToCompare];",
+							"// Compare projecttitle from response with Value in Excel",
+							"var SortingTestCaseName = \"SORT on : \" + columnValueToCompare + \", EXPECTED RESULT : \" + data[\"VALID\"] + \", ACTUAL RESULT: \" +SortColumnFromResponse;",
+							"",
+							"    tests[SortingTestCaseName ] = SortColumnFromResponse == (data[\"VALID\"]);",
+							"}",
+							"",
+							"//To check miscalleanous",
+							"else if ((data[\"TOCHECK\"] == \"NA\"  && data[\"TYPE\"] == \"NA\"))",
+							"{",
+							"tests[\"MISCELLANEOUS TESTS\"] = responseCode.code === 200;",
+							"}",
+							"",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"auth": null,
+			"time": 1519267429634,
+			"name": "CompetingApplsExcel",
+			"description": null,
+			"collectionId": "af29b212-cc4e-d57e-7a6d-16e48b2ac7ca",
+			"responses": [],
+			"preRequestScript": "//Set global variable for all columns in testdata\npostman.setGlobalVariable(\"URL\", data[\"URL\"]);\npostman.setGlobalVariable(\"VALID\", data[\"VALID\"]);\npostman.setGlobalVariable(\"INVALID\", data[\"INVALID\"]);\npostman.setGlobalVariable(\"TOCHECK\", data[\"TOCHECK\"]);\n//postman.setGlobalVariable(\"WIDGET\", data[\"WIDGET\"]);\n//postman.setGlobalVariable(\"COLUMN\", data[\"COLUMN\"]);\nconsole.log(\"URL that will be sent   \" + data[\"URL\"]);\nconsole.log(\"VALID that will be sent   \" + data[\"VALID\"]);\nconsole.log(\"INVALID that will be sent   \" + data[\"INVALID\"]);\nconsole.log(\"TOCHECK that will be sent   \" + data[\"TOCHECK\"]);\n//console.log(\"WIDGET that will be sent   \" + data[\"WIDGET\"]);\n\n\n",
+			"tests": "    //To check filtering by String\nif ((data[\"TOCHECK\"] == \"FILTER\"  && data[\"TYPE\"] == \"STRING\"))\n{\ntests[\"Status code is 200\"] = responseCode.code === 200;\n// If Valid Scenario\ntests[\"POSITIVE + Body matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"VALID\"]] = responseBody.has(data[\"VALID\"].trim());\n\n//Invalid Scenario\ntests[\"NEGATIVE + Body DOES NOT matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"INVALID\"]] = !(responseBody.has(data[\"INVALID\"].trim()));\n\n}\n//To check filtering by Number\nelse if ((data[\"TOCHECK\"] == \"FILTER\") && (data[\"TYPE\"] == \"NUMBER\"))\n{\n    tests[\"Status code is 200\"] = responseCode.code === 200;\n// If Valid Scenario\ntests[\"POSITIVE + Body matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"VALID\"]] = responseBody.has(data[\"VALID\"]);\n\n//Invalid Scenario\ntests[\"NEGATIVE + Body DOES NOT matches:\" +data[\"COLUMN\"] + \"=\"+ data[\"INVALID\"]] = !(responseBody.has(data[\"INVALID\"]));\n\n}\n//To check Sorting for String\nelse if ((data[\"TOCHECK\"] == \"SORT\") && (data[\"TYPE\"] == \"STRING\"))\n{\n    tests[\"Status code is 200\"] = responseCode.code === 200;\n\n     var contentTypeHeader = postman.getResponseHeader(\"Content-Type\");\n     tests[\"Content-Type : \" + contentTypeHeader]  = 1==1;\n    \n//SORT\ntry\n{\n   var jsonData = JSON.parse(responseBody);\n}\ncatch(exception)\n{\n    console.log(\"Exception:  ********  \" + exception);\n    console.log(\"ResonseBody When exception *******  \" +  responseBody);\n}\n// Fetch properties in JSON response and get first one \nvar widgetName = Object.keys(jsonData)[0]; // There are 2 properties, so fetch first property with 0 index\nvar columnValueToCompare = data[\"COLUMN\"].trim();\n\n// Get project title which is first in the list : SORT ASC\nvar SortColumnFromResponse = jsonData[widgetName][0][columnValueToCompare];\n// Compare projecttitle from response with Value in Excel\nvar SortingTestCaseName = \"SORT on : \" + columnValueToCompare + \", EXPECTED RESULT : \" + data[\"VALID\"].trim() + \", ACTUAL RESULT: \" +SortColumnFromResponse;\n\n    tests[SortingTestCaseName ] = SortColumnFromResponse == (data[\"VALID\"].trim());\n    \n}\n\n//To check Sorting for Number\nelse if ((data[\"TOCHECK\"] == \"SORT\") && (data[\"TYPE\"] == \"NUMBER\"))\n{\n    tests[\"Status code is 200\"] = responseCode.code === 200;\n//SORT\nvar jsonData = JSON.parse(responseBody);\n// Fetch properties in JSON response and get first one \nvar widgetName = Object.keys(jsonData)[0]; // There are 2 properties, so fetch first property with 0 index\nvar columnValueToCompare = data[\"COLUMN\"];\n\n// Get project title which is first in the list : SORT ASC\nvar SortColumnFromResponse = jsonData[widgetName][0][columnValueToCompare];\n// Compare projecttitle from response with Value in Excel\nvar SortingTestCaseName = \"SORT on : \" + columnValueToCompare + \", EXPECTED RESULT : \" + data[\"VALID\"] + \", ACTUAL RESULT: \" +SortColumnFromResponse;\n\n    tests[SortingTestCaseName ] = SortColumnFromResponse == (data[\"VALID\"]);\n}\n\n//To check miscalleanous\nelse if ((data[\"TOCHECK\"] == \"NA\"  && data[\"TYPE\"] == \"NA\"))\n{\ntests[\"MISCELLANEOUS TESTS\"] = responseCode.code === 200;\n}\n\n\n\n\n",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": ""
+		}
+	]
+}
