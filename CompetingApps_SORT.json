@@ -1,0 +1,18 @@
+[
+  {
+    "URL": "http://ireporttest.od.nih.gov/ireport/rest/competingappls/1000?portType=STATIC&page=1&supplements=true&currentGraphFilter=FY&projTitleFilter=treatments&lastUpdated=1464833088000111",
+    "COLUMN": "Title",
+    "TOCHECK": "FILTER",
+    "TYPE": "STRING",
+    "VALID": "treatments",
+    "INVALID": "sds"
+  },  
+  {
+    "URL": "http://ireporttest.od.nih.gov/ireport/rest/competingappls/1000?portType=STATIC&sortField=projectTitle&sortDirection=ASC&page=1&supplements=true&lastUpdated=1464833088000111",
+    "COLUMN": "projectTitle",
+    "TOCHECK": "SORT",
+    "TYPE": "STRING",
+    "VALID": "\"Smart\" Polymer Multi-layer Nanoparticles for Targeted Drug Delivery",
+    "INVALID": "NA"
+  }
+]
